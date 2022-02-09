@@ -10,7 +10,6 @@ Build and tag the docker image to run locally
 Start the Docker image using a local volume and the auth data for Mastodon and Twitter.\
 `docker run --name thompson --rm --gpus all -it -v "thompson:/tf/thompson" --env CLIENT_KEY="..." --env CLIENT_SECRET="..." --env ACCESS_TOKEN="..." --env TWITTER_CONSUMER_KEY="..." --env TWITTER_CONSUMER_SECRET="..." --env TWITTER_TOKEN_KEY="..." --env TWITTER_TOKEN_SECRET="..." thompson:v1.0.0 "/tf/thompson/rnn_folkmotif.py"`
 
-The past_motifs.txt file is used to store previously generated motifs to check for uniqueness. Newly generated motifs are appended to the file.
 
 Starting a container and launching a shell to train or sample data manually.\
 `docker run --name thompson --rm --gpus all -it -v "thompson:/tf/thompson" thompson:v1.0.0 bash`
