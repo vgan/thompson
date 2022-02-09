@@ -22,17 +22,17 @@ Note: Not required, but if you want to retrain using the source input.txt or tra
 `python train.py --data_path=/tf/thompson/input.txt --save_path=/tf/thompson --epochs=500 --n_layers=3 --n_embedding=128`
 
 Example Output:
-`Son blinds messenger brings about robbery.\
-Lover's gift regained: borrowing from the husband and rescued.\
-Beast as helper.\
-Axe magically guarded by bird who loves to dance.\
-Drunken dancers and ashes.\
-Bleeding rock.\
-Men middle: what is costliest? The earth.\
-Riddle: what is most general? Hope.\
-Saint's inexhaustible rice.\
-Magic wheat.\
-Ugly picture of saint speaks so that he does not die.`
+`Son blinds messenger brings about robbery.`\
+`Lover's gift regained: borrowing from the husband and rescued.`\
+`Beast as helper.`\
+`Axe magically guarded by bird who loves to dance.`\
+`Drunken dancers and ashes.`\
+`Bleeding rock.`\
+`Men middle: what is costliest? The earth.`\
+`Riddle: what is most general? Hope.`\
+`Saint's inexhaustible rice.`\
+`Magic wheat.`\
+`Ugly picture of saint speaks so that he does not die.`\
 
 Working examples running the bot can be found here:\
   [Twitter](https://twitter.com/neuralfolk) and [Mastodon](https://botsin.space/@neuralfolkmotifs)  
