@@ -1,4 +1,4 @@
-# Char RNN using TensorFlow 2.0 via Docker
+# Char RNN using TensorFlow 2.0 via Docker with GPU acceleration
 
 ## Based on Official [TF2 Text Generation Tutorial](https://www.tensorflow.org/text/tutorials/text_generation)
 
