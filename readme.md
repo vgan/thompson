@@ -21,7 +21,7 @@ Return text sample output from the model. The higher the temperature number the 
 Note: Not required, but if you want to retrain using the source input.txt or train a new model using your own text.\
 `python train.py --data_path=/tf/thompson/input.txt --save_path=/tf/thompson --epochs=500 --n_layers=3 --n_embedding=128`
 
-Example Output:
+Example Output:\
 `Son blinds messenger brings about robbery.`\
 `Lover's gift regained: borrowing from the husband and rescued.`\
 `Beast as helper.`\
@@ -32,7 +32,7 @@ Example Output:
 `Riddle: what is most general? Hope.`\
 `Saint's inexhaustible rice.`\
 `Magic wheat.`\
-`Ugly picture of saint speaks so that he does not die.`\
+`Ugly picture of saint speaks so that he does not die.`
 
 Working examples running the bot can be found here:\
   [Twitter](https://twitter.com/neuralfolk) and [Mastodon](https://botsin.space/@neuralfolkmotifs)  
