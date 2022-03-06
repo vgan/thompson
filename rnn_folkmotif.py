@@ -52,7 +52,7 @@ def isItNew(motif):
         print(past_motifs + " does not exist...")
 
 def qualityControl(motif_b,i):
-    if (b" rape " in motif_b):
+    if (b"rape" in motif_b):
         print("skipping motif involving rape")
         i = i + 1
         motif_b = pick_motif(i)
