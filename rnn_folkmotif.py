@@ -4,7 +4,7 @@ from mastodon import Mastodon
 import tweepy
 import os,mmap
 
-folkmotifcmd = [ "/usr/local/bin/python","/tf/thompson/eval.py","--gen_len=2000","--save_path=/tf/thompson","--temperature=1" ]
+folkmotifcmd = [ "/usr/local/bin/python","/tf/thompson/eval.py","--gen_len=2000","--save_path=/tf/thompson","--temperature=.8" ]
 p = Popen(folkmotifcmd, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
 output = p.stdout.read()
 lines = output.splitlines()
